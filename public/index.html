@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bot de WhatsApp · Demo Yardak</title>
+  <meta name="description" content="Probá cómo atendería tu negocio un asistente automático dentro de WhatsApp. Demo de Yardak, Paraná.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b0a0a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Así atendería tu negocio un bot en WhatsApp">
+  <meta property="og:description" content="Probalo: escribile como si fueras un cliente. Toma pedidos y turnos solo, las 24 hs.">
+  <meta property="og:image" content="https://whatsapp-demo-ydk.pages.dev/og.jpg?v=3">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%2325d366'/%3E%3Cpath d='M20 44l2-7a13 13 0 1 1 5 5z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preload" href="/assets/fonts/barlow-condensed-7a0fa43618.woff2" as="font" type="font/woff2" crossorigin>
+  <style data-fuentes>
+@font-face { font-family: 'Barlow Condensed'; font-style: italic; font-weight: 900; font-display: swap; src: url(/assets/fonts/barlow-condensed-82367e1b47.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Barlow Condensed'; font-style: italic; font-weight: 900; font-display: swap; src: url(/assets/fonts/barlow-condensed-7a0fa43618.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Barlow Condensed'; font-style: normal; font-weight: 800; font-display: swap; src: url(/assets/fonts/barlow-condensed-e7487e134d.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Barlow Condensed'; font-style: normal; font-weight: 800; font-display: swap; src: url(/assets/fonts/barlow-condensed-db5ae3568c.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  </style>
+  <link rel="stylesheet" href="styles.css?v=20261028a">
+</head>
+<body>
+  <main class="layout">
+    <aside class="pitch">
+      <p class="pitch-brand">YDK · Yardak · Demo</p>
+      <h1><span>Tu negocio atendiendo</span> <span class="grad">dentro de WhatsApp.</span></h1>
+      <p class="pitch-intro">Esta es una simulación de un bot automático conectado al WhatsApp de un negocio. Elegí uno a la derecha y escribile como si fueras un cliente: pedí comida, sacá un turno o preguntá por una propiedad.</p>
+      <ul class="pitch-pasos">
+        <li><b>01</b><span><strong>Te escriben</strong> a cualquier hora, como siempre.</span></li>
+        <li><b>02</b><span><strong>El bot responde al instante</strong> y toma el pedido o el turno completo.</span></li>
+        <li><b>03</b><span><strong>Te llega listo</strong> y, si hace falta, te pasa la charla a vos.</span></li>
+      </ul>
+      <ul class="pitch-datos"><li><b>24 h</b>atendiendo</li><li><b>4</b>rubros para probar</li><li><b>0</b>apps nuevas para tus clientes</li></ul>
+      <div class="pitch-botones">
+        <a class="pitch-cta" href="https://wa.me/5493434727553?text=%C2%A1Hola%20Julian!%20Prob%C3%A9%20la%20demo%20del%20bot%20de%20WhatsApp%20y%20me%20interesa%20para%20mi%20negocio." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>Quiero uno para mi negocio</a>
+        <a class="pitch-ig" href="https://ig.me/m/ydk.exe" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>Instagram</a>
+      </div>
+      <p class="pitch-fine">Demo de Yardak · Paraná. Los negocios, precios y datos son de ejemplo.</p>
+    </aside>
+
+    <section class="phone" aria-label="Chat de WhatsApp simulado">
+      <a class="movil-cta" href="https://wa.me/5493434727553?text=%C2%A1Hola%20Julian!%20Prob%C3%A9%20la%20demo%20del%20bot%20de%20WhatsApp%20y%20me%20interesa%20para%20mi%20negocio." target="_blank" rel="noopener"><span><b>DEMO</b> · Yardak</span><span>Quiero uno para mi negocio →</span></a>
+      <div class="pick" role="radiogroup" aria-label="Elegí un negocio">
+        <button type="button" data-biz="rotiseria" aria-pressed="true">🍗 Rotisería</button>
+        <button type="button" data-biz="barberia" aria-pressed="false">✂ Barbería</button>
+        <button type="button" data-biz="odontologia" aria-pressed="false">🦷 Consultorio</button>
+        <button type="button" data-biz="inmobiliaria" aria-pressed="false">🏠 Inmobiliaria</button>
+      </div>
+
+      <header class="wa-head">
+        <span class="avatar" data-avatar>T</span>
+        <div class="wa-who">
+          <p class="wa-name" data-name>Lo de Tito · Rotisería</p>
+          <p class="wa-status" data-status>en línea</p>
+        </div>
+        <span class="wa-badge" title="Cuenta de empresa">✔</span>
+      </header>
+
+      <div class="wa-chat" data-log aria-live="polite"></div>
+
+      <div class="wa-suggest" data-suggest></div>
+
+      <form class="wa-input" data-form>
+        <label class="sr-only" for="msg">Escribí un mensaje</label>
+        <input id="msg" autocomplete="off" maxlength="500" placeholder="Mensaje">
+        <button type="submit" aria-label="Enviar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg></button>
+      </form>
+    </section>
+  </main>
+  <script defer src="main.js?v=20261019"></script>
+</body>
+</html>
